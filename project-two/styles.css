@@ -35,6 +35,7 @@ body {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 50px);
+    justify-content: space-around;
     grid-gap: 40px;
 }
 
