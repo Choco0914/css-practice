@@ -1,0 +1,150 @@
+:root {
+    --grayColor: rgba(0,0,0,0.5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #F4F4F5;
+     height: 100vh;
+     overflow: hidden;
+     display: grid;
+     grid-template-rows: 1fr 3fr 0.5fr;
+}
+
+.header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.header .header__menu-icon {
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.portfolio {
+    display: grid;
+    padding-left: 80px;
+    grid-template-columns: minmax(350px, 1fr);
+    grid-auto-columns: minmax(350px, 1fr);
+    grid-template-rows: 45vh;
+    grid-auto-rows: 45vh;
+    grid-auto-flow: column;
+    overflow: scroll;
+    grid-gap: 50px;
+    padding-bottom: 50px;
+    align-self: center;
+}
+
+.portfolio::-webkit-scrollbar {
+    display: none;
+}
+
+.portfolio .portfolio__item {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 19px 38px rgba(0,0,0,0.30),
+    0px 15px 38px rgba(0,0,0,0.22);
+}
+
+.portfolio .portfolio__item:first-child{
+    background-image: 
+    url(https://i.pinimg.com/564x/89/6a/6c/896a6cd7b9ff88051ece86096932c4e1.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(2){
+    background-image: 
+    url(https://i.pinimg.com/564x/25/1d/1f/251d1fc0fab90e23a689885d678eaf06.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(3){
+    background-image: 
+    url(https://i.pinimg.com/564x/a4/62/fc/a462fcd7d1010fdbf87ebe9d5ef6e05a.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(4){
+    background-image: 
+    url(https://i.pinimg.com/564x/13/39/1f/13391f517b9854fc9e5ebf94765198d4.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(5){
+    background-image: 
+    url(https://i.pinimg.com/564x/be/a3/d6/bea3d67a61c3b388a68902aaf01e4016.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(6){
+    background-image: 
+    url(https://i.pinimg.com/564x/4b/ea/f6/4beaf618f444b43dc7db2d84e81852e9.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(7){
+    background-image: 
+    url(https://i.pinimg.com/564x/ff/7a/69/ff7a69c365b4170be2a81b70b3877e99.jpg);
+}
+
+.portfolio .portfolio__item:nth-child(8){
+    background-image: 
+    url(https://i.pinimg.com/564x/aa/00/88/aa0088110e3e069f7ac94b565581a8ff.jpg);
+}
+
+.portfolio__item .item__info {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.navigation {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grayColor);
+    padding: 0px 40px;
+}
+
+.navigation svg {
+    fill: var(--grayColor);
+}
+
+.navigation .nabigation__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-columns: repeat(auto-fill, minmax(min-content, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 1fr));
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+
+.navigation__icons .navigation__icon:last-child {
+    margin-left: 10px;
+}
+
+.navigation__item:first-child {
+    color: #2c2c2c;
+}
