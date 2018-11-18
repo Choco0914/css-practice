@@ -8,3 +8,4 @@
 - [x] project 5 [Artistic Social Network App](https://84q85l3nyj.codesandbox.io/)
 - [x] project 6 [Architecture Website](https://m3m260yrx9.codesandbox.io/)
 - [x] project 7 [Artistic Blog Website](https://jzlwol94lw.codesandbox.io/#)
+- [x] project 8 [Artistic Portfolio Website](https://q94xjnmpww.codesandbox.io/)
