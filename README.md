@@ -14,3 +14,4 @@
 - [x] project 10 [Trendy News Website](https://l5p2y9okqq.codesandbox.io/)
 - [x] project 11 [Portfolio Website](https://20o1xlyxmy.codesandbox.io/)
 - [x] project 12 [Grid Blog](https://2v73oqv2q0.codesandbox.io/)
+- [x] project 13 [Urban Magazine](https://nr1kn9jv4j.codesandbox.io/)
