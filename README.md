@@ -15,3 +15,4 @@
 - [x] project 11 [Portfolio Website](https://20o1xlyxmy.codesandbox.io/)
 - [x] project 12 [Grid Blog](https://2v73oqv2q0.codesandbox.io/)
 - [x] project 13 [Urban Magazine](https://nr1kn9jv4j.codesandbox.io/)
+- [x] project 14 [Beautiful Blog](https://z3yp4m9283.codesandbox.io/)
