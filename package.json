@@ -1,0 +1,20 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "- [x] project 1 [colorful eCommerce](https://m4xo8z95xy.codesandbox.io/)\r - [x] project 2 [Meal App](https://53m4nqz794.codesandbox.io/)\r - [x] project 3 [News app](https://o4q10q1nr5.codesandbox.io/)\r - [x] project 4 [Recipe App](https://3r7m4q6km6.codesandbox.io/)\r - [x] project 5 [Artistic Social Network App](https://84q85l3nyj.codesandbox.io/)\r - [x] project 6 [Architecture Website](https://m3m260yrx9.codesandbox.io/)\r - [x] project 7 [Artistic Blog Website](https://jzlwol94lw.codesandbox.io/#)\r - [x] project 8 [Artistic Portfolio Website](https://q94xjnmpww.codesandbox.io/)\r - [x] project 9 [Artistic Fashion Website](https://0o269p67yv.codesandbox.io/)\r - [x] project 10 [Trendy News Website](https://l5p2y9okqq.codesandbox.io/)\r - [x] project 11 [Portfolio Website](https://20o1xlyxmy.codesandbox.io/)\r - [x] project 12 [Grid Blog](https://2v73oqv2q0.codesandbox.io/)\r - [x] project 13 [Urban Magazine](https://nr1kn9jv4j.codesandbox.io/)\r - [x] project 14 [Beautiful Blog](https://z3yp4m9283.codesandbox.io/)\r - [x] project 15 [Beautiful eCommerce](https://2z57v33wyy.codesandbox.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choco0914/css-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Choco0914/css-practice/issues"
+  },
+  "homepage": "https://github.com/Choco0914/css-practice#readme"
+}
